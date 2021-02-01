@@ -10,17 +10,13 @@
   <a href="#repository-size">
     <img src="https://img.shields.io/github/repo-size/MateusJSouza/reactjs-imersao" alt="Tamanho do repositório" />
   </a>
-
   <a href="https://www.codacy.com/gh/MateusJSouza/reactjs-imersao/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MateusJSouza/reactjs-imersao&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/b9ac9c8b83f44361977021729ffb0399" /></a>
-
   <a href="https://github.com/MateusJSouza/MaratonaDiscovery/issues">
     <img src="https://img.shields.io/bitbucket/issues-raw/MateusJSouza/reactjs-imersao" alt="Issues" />
   </a>
-
   <a href="https://github.com/MateusJSouza/MaratonaDiscovery/graphs/commit-activity">
     <img src="https://img.shields.io/github/last-commit/MateusJSouza/reactjs-imersao" alt="Últimos commits" />
   </a>
-
   <a href="https://github.com/MateusJSouza/MaratonaDiscovery/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/MateusJSouza/reactjs-imersao" alt="Licença MIT" />
   </a>
