@@ -13,19 +13,19 @@ import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Input from '../src/components/Input';
-// import Button from '../src/components/Button';
+import Button from '../src/components/Button';
 
 const Title = styled.h1`
   font-size: 50px;
   color: ${({ theme }) => theme.colors.primary};
 `;
 
-const BackgroundImage = styled.div`
-  background-image: url(${db.bg});
-  flex: 1;
-  background-size: cover;
-  background-position: center;
-`;
+// const BackgroundImage = styled.div`
+//   background-image: url(${db.bg});
+//   flex: 1;
+//   background-size: cover;
+//   background-position: center;
+// `;
 
 const QuizContainer = styled.div`
   width: 100%;
@@ -72,15 +72,11 @@ export default function Home() {
                 placeholder="Diz aí seu nome"
                 value={name}
               />
-              <button type="submit" disabled={name.length === 0}>
-                Jogar
-                {name}
-              </button>
+              <Button type="submit" disabled={name.length === 0}>
+                {`Jogar ${name}`}
+              </Button>
             </form>
           </Widget.Content>
-        </Widget>
-
-        <Widget>
           <Widget.Header>
             <h1>Quizes da Galera</h1>
           </Widget.Header>
